@@ -55,3 +55,15 @@ a = float(input("Ingresa el radicando: "))
 resultado = math.sqrt(a)
 
 print(f"El resultado de la raíz cuadrada es: {resultado}")
+
+# suma_5_numeros.py
+
+a = float(input("Ingresa el primer número: "))
+b = float(input("Ingresa el segundo número: "))
+c = float(input("Ingresa el tercer número: "))
+d = float(input("Ingresa el cuarto número: "))
+e = float(input("Ingresa el quinto número: "))
+
+resultado = a + b + c + d + e
+
+print(f"La suma de los 5 números es: {resultado}")
