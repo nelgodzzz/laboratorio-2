@@ -76,3 +76,11 @@ b = float(input("Ingresa el divisor: "))
 resultado = a % b
 
 print(f"El residuo de la división es: {resultado}")
+
+# quetzal_a_dolar.py
+
+monto = float(input("Ingresa el monto en quetzales: "))
+
+resultado = monto / 7.91
+
+print(f"{monto} quetzales equivalen a {resultado} dólares")
