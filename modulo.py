@@ -17,3 +17,12 @@ b = float(input("Ingresa el segundo número: "))
 resultado = a - b
 
 print(f"El resultado de la resta es: {resultado}")
+
+# multiplicacion.py
+
+a = float(input("Ingresa el primer número: "))
+b = float(input("Ingresa el segundo número: "))
+
+resultado = a * b
+
+print(f"El resultado de la multiplicación es: {resultado}")
