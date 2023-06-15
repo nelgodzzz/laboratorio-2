@@ -67,3 +67,12 @@ e = float(input("Ingresa el quinto número: "))
 resultado = a + b + c + d + e
 
 print(f"La suma de los 5 números es: {resultado}")
+
+# residuo.py
+
+a = float(input("Ingresa el dividendo: "))
+b = float(input("Ingresa el divisor: "))
+
+resultado = a % b
+
+print(f"El residuo de la división es: {resultado}")
