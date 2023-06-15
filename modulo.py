@@ -26,3 +26,14 @@ b = float(input("Ingresa el segundo número: "))
 resultado = a * b
 
 print(f"El resultado de la multiplicación es: {resultado}")
+
+# division.py
+
+a = float(input("Ingresa el dividendo: "))
+b = float(input("Ingresa el divisor: "))
+
+if b == 0:
+    print("Error: No se puede dividir entre cero")
+else:
+    resultado = a / b
+    print(f"El resultado de la división es: {resultado}")
