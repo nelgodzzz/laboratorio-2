@@ -46,3 +46,12 @@ b = float(input("Ingresa el exponente: "))
 resultado = a ** b
 
 print(f"El resultado de la exponenciación es: {resultado}")
+
+# raiz.py
+import math
+
+a = float(input("Ingresa el radicando: "))
+
+resultado = math.sqrt(a)
+
+print(f"El resultado de la raíz cuadrada es: {resultado}")
