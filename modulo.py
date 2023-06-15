@@ -37,3 +37,12 @@ if b == 0:
 else:
     resultado = a / b
     print(f"El resultado de la división es: {resultado}")
+
+# exponenciacion.py
+
+a = float(input("Ingresa la base: "))
+b = float(input("Ingresa el exponente: "))
+
+resultado = a ** b
+
+print(f"El resultado de la exponenciación es: {resultado}")
