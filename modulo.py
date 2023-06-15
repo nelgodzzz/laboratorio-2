@@ -84,3 +84,11 @@ monto = float(input("Ingresa el monto en quetzales: "))
 resultado = monto / 7.91
 
 print(f"{monto} quetzales equivalen a {resultado} dólares")
+
+# dolar_a_quetzal.py
+
+monto = float(input("Ingresa el monto en dólares: "))
+
+resultado = monto * 7.91
+
+print(f"{monto} dólares equivalen a {resultado} quetzales")
